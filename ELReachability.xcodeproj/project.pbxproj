@@ -333,7 +333,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = "WalmartLabs";
+				ORGANIZATIONNAME = WalmartLabs;
 				TargetAttributes = {
 					228698101B7D48B100BE8A26 = {
 						CreatedOnToolsVersion = 7.0;
@@ -604,7 +604,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = ELReachability/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.walmartlabs.ELReachability;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -623,7 +622,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = ELReachability/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.walmartlabs.ELReachability;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -760,6 +758,7 @@
 				2286985D1B7D63EA00BE8A26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2286985E1B7D63EA00BE8A26 /* Build configuration list for PBXNativeTarget "ELReachabilityExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -768,6 +767,7 @@
 				228698601B7D63EA00BE8A26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		228698611B7D63EA00BE8A26 /* Build configuration list for PBXNativeTarget "ELReachabilityExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -776,6 +776,7 @@
 				228698631B7D63EA00BE8A26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
